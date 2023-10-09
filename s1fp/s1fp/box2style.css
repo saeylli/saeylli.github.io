@@ -1,0 +1,29 @@
+html {
+    background-color: #EADCCD;
+}
+
+#wrapper {
+    position: relative;
+    width: 100vw;
+}
+
+#insidebox2 {
+    width: 100vw;
+    height: 74.76vw;
+}
+
+#piece1 {
+    position: absolute;
+    width: 40vw;
+    height: 16vw;
+    top: 36vw;
+    left: 20vw;
+    background-image: url("piece1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#piece1:hover {
+    background-image: url("piece1hover.png");
+}

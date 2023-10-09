@@ -1,0 +1,206 @@
+html {
+    background-color: #EADCCD;
+}
+
+#wrapper {
+    position: relative;
+    width: 100vw;
+}
+
+#room {
+    width: 100vw;
+    height: 74.76vw;
+}
+
+#drawer1 {
+    position: absolute;
+    width: 16.2vw;
+    height: 6vw;
+    top: 50.6vw;
+    left: 76.8vw;
+    background-image: url("drawer1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#drawer1:hover {
+    background-image: url("drawerhover1.png");
+}
+
+#drawer2 {
+    position: absolute;
+    width: 16.3vw;
+    height: 6vw;
+    top: 55.6vw;
+    left: 76.84vw;
+    background-image: url("drawer2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#drawer2:hover {
+    background-image: url("drawerhover2.png");
+}
+
+#drawer3 {
+    position: absolute;
+    width: 16.3vw;
+    height: 8vw;
+    top: 60.6vw;
+    left: 76.84vw;
+    background-image: url("drawer3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#drawer3:hover {
+    background-image: url("drawerhover3.png");
+}
+
+#drawer4 {
+    position: absolute;
+    width: 16.25vw;
+    height: 8vw;
+    top: 67.39vw;
+    left: 76.85vw;
+    background-image: url("drawer4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#drawer4:hover {
+    background-image: url("drawerhover4.png");
+}
+
+#box1 {
+    position: absolute;
+    width: 16.25vw;
+    height: 9.3vw;
+    top: 49.99vw;
+    left: -5.14vw;
+    background-image: url("box1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box1:hover {
+    background-image: url("boxhover1.png");
+}
+
+#box2 {
+    position: absolute;
+    width: 16.25vw;
+    height: 8.6vw;
+    top: 39vw;
+    left: 78.61vw;
+    background-image: url("box2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box2:hover {
+    background-image: url("boxhover2.png");
+}
+
+#trash {
+    position: absolute;
+    width: 16.25vw;
+    height: 11.8vw;
+    top: 63.2vw;
+    left: 14.1vw;
+    background-image: url("trash.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#trash:hover {
+    background-image: url("trashhover.png");
+}
+
+#penbucket {
+    position: absolute;
+    width: 16.25vw;
+    height: 10.5vw;
+    top: 37.3vw;
+    left: 34.7vw;
+    background-image: url("penbucket.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#penbucket:hover {
+    background-image: url("penbuckethover.png");
+}
+
+#minidrawer1 {
+    position: absolute;
+    width: 16.25vw;
+    height: 2.1vw;
+    top: 44.5vw;
+    left: 66.2vw;
+    background-image: url("minidrawer1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#minidrawer1:hover {
+    background-image: url("minidrawerhover1.png");
+}
+
+#minidrawer2 {
+    position: absolute;
+    width: 16.25vw;
+    height: 2.45vw;
+    top: 44.5vw;
+    left: 44.83vw;
+    background-image: url("minidrawer2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#minidrawer2:hover {
+    background-image: url("minidrawerhover2.png");
+}
+
+#screen {
+    position: absolute;
+    width: 26.5vw;
+    height: 26.5vw;
+    top: 14.6vw;
+    left: 49.95vw;
+    background-image: url("screen.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#screen:hover {
+    background-image: url("screenhover.jpg");
+}
+
+
+#duck {
+    position: absolute;
+    width: 16.25vw;
+    height: 6.3vw;
+    top: 37.6vw;
+    left: 3.4vw;
+    background-image: url("duck.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#duck:hover {
+    background-image: url("duckhover.png");
+}

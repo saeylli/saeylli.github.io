@@ -1,0 +1,17 @@
+html {
+    background-color: #EADCCD;
+    font-family: monospace;
+    font-size: 24;
+    text-align: center;
+    color: #7c5941
+}
+
+#wrapper {
+    position: relative;
+    width: 100vw;
+}
+
+#duck {
+    width: 100vw;
+    height: 80vw;
+}

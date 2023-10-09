@@ -1,0 +1,29 @@
+html {
+    background-color: #EADCCD;
+}
+
+#wrapper {
+    position: relative;
+    width: 100vw;
+}
+
+#insidepenbucket {
+    width: 100vw;
+    height: 74.76vw;
+}
+
+#piece4 {
+    position: absolute;
+    width: 40vw;
+    height: 17.5vw;
+    top: 29.4vw;
+    left: 14.98vw;
+    background-image: url("piece4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#piece4:hover {
+    background-image: url("piece4hover.png");
+}
