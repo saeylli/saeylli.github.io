@@ -1,5 +1,9 @@
 html {
     background-color: #EADCCD;
+    font-family: monospace;
+    font-size: 10;
+    text-align: center;
+    color: #7c5941
 }
 
 #wrapper {
