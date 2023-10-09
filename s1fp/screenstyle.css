@@ -1,9 +1,9 @@
 html {
-    background-color: #EADCCD;
+    background-color: #FFEBBC;
     font-family: monospace;
     font-size: 16;
     text-align: center;
-    color: #F6D271
+    color: #7c5941
 }
 
 #styledtable {
@@ -11,7 +11,7 @@ html {
 }
   
 #styledtable td {
-    border: 2.5px solid #F6D271;
+    border: 3.5px solid #F6D271;
     background-color: white;
     min-width: 200px;
     height: 300px;
