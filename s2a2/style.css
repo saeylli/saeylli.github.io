@@ -1,4 +1,4 @@
-html body {
+html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -6,19 +6,22 @@ html body {
     justify-content: center;
     align-items: center;
     background-color: #ee959d;
-    overflow-x: hidden;
 }
 
 .container {
     position: relative;
     display: flex;
-    width: 60vw;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+    justify-content: center;
     max-width: 1000px;
+    width: 90%; /* Adjust the width to a percentage that works well for your design */
 }
 
 .sprite {
     flex: 1;
-    height: 20vmin;
+    height: 1280px; /* Set a fixed height for your sprites */
+    width: 11264px; /* Set a fixed width for your sprites */
+    margin: 10px; /* Add spacing between the sprites as needed */
     border-radius: 1vmin;
     overflow: hidden;
     background-size: 1100%;
@@ -34,13 +37,13 @@ html body {
 
 .sprite:hover { background-position: -1000%; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .container {
         width: 90vw;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 2000px) {
     .container {
         width: 50vw;
     }
