@@ -1,4 +1,4 @@
-html, body {
+html body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -6,22 +6,22 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #ee959d;
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    overflow-x: hidden;
 }
 
 .container {
+    position: relative;
     display: flex;
-    text-align: center;
-    width: 80vw; /* 80% of viewport width */
-    max-width: 1000px; /* Max width to prevent too wide on large screens */
+    width: 62vw;
+    max-width: 1000px;
 }
 
 .sprite {
     flex: 1;
-    height: 20vmin; /* 20% of the smaller of viewport width or height */
-    border-radius: 1vmin; /* 1% of the smaller of viewport width or height */
+    height: 20vmin;
+    border-radius: 1vmin;
     overflow: hidden;
-    background-size: 1100%; /* Set to 1100% for 11 frames */
+    background-size: 1100%;
     background-position: 0;
     transition: background-position 1s steps(10);
 }
@@ -34,26 +34,14 @@ html, body {
 
 .sprite:hover { background-position: -1000%; }
 
-/* Small screens */
-@media (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .container {
-        width: 100vw; /* Use full viewport width */
-    }
-    .sprite {
-        height: 30vmin; /* Increase height to be more visible */
+        width: 90vw;
     }
 }
 
-/* Medium screens */
-@media (min-width: 601px) and (max-width: 900px) {
-    .sprite {
-        height: 25vmin; /* Slightly larger sprites */
-    }
-}
-
-/* Large screens */
-@media (min-width: 901px) {
-    .sprite {
-        height: 20vmin; /* Maintain a moderate size */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 50vw;
     }
 }
