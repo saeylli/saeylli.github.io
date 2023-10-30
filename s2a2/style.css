@@ -8,7 +8,7 @@ html, body {
     background-color: #ee959d;
 }
 
-.container {
+#wrapper {
     position: relative;
     display: flex;
     flex-wrap: wrap; 
@@ -38,7 +38,7 @@ html, body {
 .sprite:hover { background-position: -1000%; }
 
 @media only screen and (max-width: 900px) {
-    .container {
+    #wrapper {
         margin-left: 0vw;
         margin-top: 0vw;
         width: 100vw;
@@ -47,7 +47,7 @@ html, body {
 }
 
 @media only screen and (min-width: 2000px) {
-    .container {
+    #wrapper {
         margin-left: 0vw;
         margin-top: 0vw;
         width: 100vw;
