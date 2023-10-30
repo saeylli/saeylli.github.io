@@ -12,7 +12,7 @@ html body {
 .container {
     position: relative;
     display: flex;
-    width: 62vw;
+    width: 60vw;
     max-width: 1000px;
 }
 
