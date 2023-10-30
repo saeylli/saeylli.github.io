@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee959d;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    width: 80vw; /* 80% of viewport width */
+    max-width: 1000px; /* Max width to prevent too wide on large screens */
+}
+
+.sprite {
+    flex: 1;
+    height: 20vmin; /* 20% of the smaller of viewport width or height */
+    border-radius: 1vmin; /* 1% of the smaller of viewport width or height */
+    overflow: hidden;
+    background-size: 1100%; /* Set to 1100% for 11 frames */
+    background-position: 0;
+    transition: background-position 1s steps(10);
+}
+
+.sprite1 { background-image: url('sonny1.png'); }
+.sprite2 { background-image: url('sonny2.png'); }
+.sprite3 { background-image: url('sonny3.png'); }
+.sprite4 { background-image: url('sonny4.png'); }
+.sprite5 { background-image: url('sonny5.png'); }
+
+.sprite:hover { background-position: -1000%; }
+
+/* Small screens */
+@media (max-width: 600px) {
+    .container {
+        width: 100vw; /* Use full viewport width */
+    }
+    .sprite {
+        height: 30vmin; /* Increase height to be more visible */
+    }
+}
+
+/* Medium screens */
+@media (min-width: 601px) and (max-width: 900px) {
+    .sprite {
+        height: 25vmin; /* Slightly larger sprites */
+    }
+}
+
+/* Large screens */
+@media (min-width: 901px) {
+    .sprite {
+        height: 20vmin; /* Maintain a moderate size */
+    }
+}
