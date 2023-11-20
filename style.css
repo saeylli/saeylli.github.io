@@ -1,0 +1,122 @@
+h1{
+    font-size: 5vw;
+    font-family: monospace;
+    color: white;
+}
+
+h2{
+    font-size: 2.3vw;
+    color: white;
+    font-family: "Courier New";
+    font-weight: lighter;
+}
+
+h3{
+    font-size: 2vw;
+    color: white;
+    font-family: "Courier New";
+}
+
+h4{
+    font-size: 2vw;
+    color: white;
+    font-family: "Courier New";
+}
+
+h5{
+    font-size: 2vw;
+    color: white;
+    font-family: "Courier New";
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: white;
+}
+
+#script {
+    width: 50vw;
+}
+
+#pink{
+    height: 90vw;
+    width: 90vw;
+    position: absolute;
+    left: 30vw;
+    top: vh;
+    background-image: radial-gradient(rgb(250, 118, 149, 0.9) 0%, rgb(250, 118, 149, 0) 70%);
+    border-radius: 50%;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+
+#pink2{
+    height: 90vw;
+    width: 90vw;
+    position: absolute;
+    left: -25vw;
+    top: 35vh;
+    background-image: radial-gradient(rgb(250, 118, 149, 0.9) 0%, rgb(250, 118, 149, 0) 70%);
+    border-radius: 50%;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+
+#orange{
+    height: 90vw;
+    width: 90vw;
+    position: absolute;
+    left: -25vw;
+    top: vh;
+    background-image: radial-gradient(rgb(255, 157, 105, 1) 0%, rgb(250, 118, 149, 0) 70%);
+    border-radius: 50%;
+    z-index: -1;   
+}
+
+#orange2{
+    height: 90vw;
+    width: 90vw;
+    position: absolute;
+    left: 25vw;
+    top: 40vh;
+    background-image: radial-gradient(rgb(255, 157, 105, 1) 0%, rgb(250, 118, 149, 0) 70%);
+    border-radius: 50%;
+    z-index: -1;
+    
+}
+
+#green{
+    height: 90vw;
+    width: 70vw;
+    position: absolute;
+    top: 60vh;
+    left: 20vw;
+    background-image: radial-gradient(rgb(167, 201, 87, 0.7) 0%, rgb(250, 118, 149, 0) 70%);
+    border-radius: 50%;
+    z-index: -1;
+   
+}
+
+#green2{
+    height: 95vw;
+    width: 120vw;
+    position: absolute;
+    top: -35vh;
+    left: -10vw;
+    background-image: radial-gradient(rgb(167, 201, 87, 0.7) 0%, rgb(250, 118, 149, 0) 70%);
+    border-radius: 50%;
+    z-index: -1;
+   
+}
+
+#video{
+    width: 66vw;
+    height: 37.125vw;
+}
