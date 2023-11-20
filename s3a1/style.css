@@ -43,6 +43,18 @@ body{
     width: 50vw;
 }
 
+#sally {
+    width: 45vw;
+}
+
+#mengying {
+    width: 45vw;
+}
+
+#jhaughanessy {
+    width: 45vw;
+}
+
 #pink{
     height: 90vw;
     width: 90vw;
@@ -114,18 +126,6 @@ body{
     border-radius: 50%;
     z-index: -1;
    
-}
-
-#sally {
-    width: 10vw;
-}
-
-#mengying {
-    width: 10vw;
-}
-
-#jhaughanessy {
-    width: 10vw;
 }
 
 
