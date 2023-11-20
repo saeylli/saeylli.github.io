@@ -25,7 +25,7 @@ h4{
 
 h5{
     font-size: 2vw;
-    color: white;
+    color: #a7c957;
     font-family: "Courier New";
 }
 
@@ -116,7 +116,12 @@ body{
    
 }
 
-#video{
-    width: 66vw;
-    height: 37.125vw;
+.finalscontainer {
+    display: flex;
+    justify-content: space-around; /* This will space out the images evenly */
+}
+
+.finalscontainer img {
+    width: 30%; /* Adjust the width as necessary */
+    margin: 5px; /* Optional, for some space around the images */
 }
