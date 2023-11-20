@@ -29,6 +29,12 @@ h5{
     font-family: "Courier New";
 }
 
+h6{
+    font-size: 2vw;
+    color: #a7c957;
+    font-family: "Courier New";
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -44,7 +50,11 @@ body{
 }
 
 #finals{
-    width: 45vw;
+    width: 57vw;
+}
+
+#pumpkin {
+    width: 40vw;
 }
 
 #pink{
