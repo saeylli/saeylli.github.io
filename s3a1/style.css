@@ -116,12 +116,16 @@ body{
    
 }
 
-.finalscontainer {
-    display: flex;
-    justify-content: space-around; /* This will space out the images evenly */
+#sally {
+    width: 50vw;
 }
 
-.finalscontainer img {
-    width: 30%; /* Adjust the width as necessary */
-    margin: 5px; /* Optional, for some space around the images */
+#mengying {
+    width: 50vw;
 }
+
+#jhaughanessy {
+    width: 50vw;
+}
+
+
