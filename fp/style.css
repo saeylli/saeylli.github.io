@@ -64,7 +64,7 @@ p {
     background-image: url("arrow1.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
 }
 
 #arrow1:hover {
@@ -80,7 +80,7 @@ p {
     background-image: url("arrow2.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
 }
 
 #arrow2:hover {
@@ -96,7 +96,7 @@ p {
     background-image: url("arrow3.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
 }
 
 #arrow3:hover {

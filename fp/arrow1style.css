@@ -1,29 +1,54 @@
-html {
-    background-color: #EADCCD;
+body, html {
+    background-color: #F5CAC3;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
-#wrapper {
+.foreground {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.foreground img {
+    width: 300px; 
+    height: 200px;
+}
+
+.background {
     position: relative;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
 }
 
-#insidepenbucket {
-    width: 100vw;
-    height: 74.76vw;
+.image-container {
+    position: relative;
+    margin-right: 10px;
 }
 
-#piece4 {
+.image-container img {
+    max-height: 100%;
+    width: auto;
+    display: block;
+}
+
+.click {
     position: absolute;
-    width: 40vw;
-    height: 17.5vw;
-    top: 29.4vw;
-    left: 14.98vw;
-    background-image: url("piece4.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center
+    top: 65;
+    left: 500;
+    cursor: pointer;
+    
 }
 
-#piece4:hover {
-    background-image: url("piece4hover.png");
+.click img {
+    width: 400px; /* Adjust the size of the clickable image */
+    height: auto;
+    /* Optional: add some opacity or other styling to make it visible as a clickable item */
 }
