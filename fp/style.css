@@ -1,0 +1,104 @@
+@font-face {
+    font-family: silkscreen;
+    src: url(Silkscreen-Regular.ttf);
+}
+
+@font-face {
+    font-family: abrilfatface ;
+    src: url(AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: lexend;
+    src: url(Lexend-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: lexendlight;
+    src: url(Lexend-Light.ttf);
+}
+
+html {
+    background-color: #F5CAC3;
+    font-family: abrilfatface;
+    font-size: 45;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: lexend;
+}
+
+p {
+    font-family: lexendlight;
+    font-size: 25;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#wrapper {
+    position: relative;
+    width: 100vw;
+}
+
+#entrance { 
+    width: 100vw;
+    height: 63vw;
+}
+
+#lights { 
+    width: 100vw;
+    height: 18vw;
+}
+
+#arrow1{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 44vw;
+    left: 43.5vw;
+    background-image: url("arrow1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#arrow1:hover {
+    background-image: url("arrow1hover.png");
+}
+
+#arrow2{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 50vw;
+    left: 85vw;
+    background-image: url("arrow2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#arrow2:hover {
+    background-image: url("arrow2hover.png");
+}
+
+#arrow3{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 43vw;
+    left: 4vw;
+    background-image: url("arrow3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#arrow3:hover {
+    background-image: url("arrow3hover.png");
+}
